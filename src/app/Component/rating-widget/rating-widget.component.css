@@ -1,0 +1,30 @@
+.rating-input {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.rating-input .mat-icon.rated-icon.animate {
+    animation: flip-vertical-fwd 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+.rating-input .mat-icon.not-rated-icon {
+    color: rgba(0, 0, 0, .5);
+}
+.rating-input .mat-icon.not-rated-icon.animate {
+    animation: flip-vertical-bck 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+@keyframes flip-vertical-bck {
+    0% {
+        transform: translateZ(0) rotateY(0);
+   }
+    100% {
+        transform: translateZ(-260px) rotateY(-180deg);
+   }
+}
+@keyframes flip-vertical-fwd {
+    0% {
+        transform: translateZ(0) rotateY(0);
+   }
+    100% {
+        transform: translateZ(160px) rotateY(180deg);
+   }
+}
