@@ -7,8 +7,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-In order to use the component in the project directory, you can have to run:
-  `npm init`
+In order to use the component in the project directory, you can have to run:<br/>
+  `npm init` then <br/>
   `ng serve`
 
 The navigate to `http://localhost:4200/` to see the default component. The app will automatically reload if you change any of the source files.
